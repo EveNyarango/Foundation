@@ -1,7 +1,4 @@
-import Functional_Programming.HigherFuction.HigherFunction;
-import Functional_Programming.HigherFuction.IdentityOperation;
-import Functional_Programming.HigherFuction.QubeSum;
-import Functional_Programming.HigherFuction.SquareSum;
+import oi.turntabl.functional_programming.higher_fuction.HigherFunction;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
