@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="oi.turntabl.functional_programming.immutability.ImmutableClassTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-02-22T17:12:38" hostname="DESKTOP-44RH361" time="0.016">
+  <properties/>
+  <testcase name="checkAgeOnImmutableClass()" classname="oi.turntabl.functional_programming.immutability.ImmutableClassTest" time="0.014"/>
+  <testcase name="checkNameOnImmutableClass()" classname="oi.turntabl.functional_programming.immutability.ImmutableClassTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

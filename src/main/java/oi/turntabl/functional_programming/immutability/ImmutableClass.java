@@ -20,7 +20,8 @@ public class ImmutableClass {
     }
 
     public static void main(String[] args) {
-        ImmutableClass immutableClass = new ImmutableClass(1, "Java");
+        ImmutableClass immutableClass = new ImmutableClass(5, "Java");
         System.out.println("My favourite programming language is" + immutableClass.name);
+
     }
 }

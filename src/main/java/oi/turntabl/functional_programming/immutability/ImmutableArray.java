@@ -6,13 +6,14 @@ import java.util.List;
 
 public class ImmutableArray{
 
-    public static void main(String[] args) {
+    public static void confirmArrayMutability(){
         //    mutable array
         int[] numbers = new int[]{5, 7, 5, 9, 7};
         numbers[4] = 10;
-
         System.out.println(numbers[4]);
+    }
 
+    public static void makeArrayImmutable(){
 //        making array immutable with a different data type
 //        array of students
         String student[] = {"Linda", "Amani", "Amanda", "Hawa"};
@@ -22,5 +23,11 @@ public class ImmutableArray{
         List<String> immutable = Collections.unmodifiableList(studentList);
 //        print
         System.out.println(immutable);
+    }
+
+    public static void main(String[] args) {
+        confirmArrayMutability();
+        makeArrayImmutable();
+
     }
 }
