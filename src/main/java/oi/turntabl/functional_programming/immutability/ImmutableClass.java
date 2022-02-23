@@ -1,6 +1,6 @@
 package oi.turntabl.functional_programming.immutability;
 
-public class ImmutableClass {
+final public class ImmutableClass {
 
 //    Declare public final for the variable
     private final int id;
